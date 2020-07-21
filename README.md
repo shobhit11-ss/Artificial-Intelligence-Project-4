@@ -29,4 +29,3 @@ We have used Alpha-Beta pruning to search the Min/Max heap. It is a search algor
 Alpha: It is the best choice so far for the player MAX. We want to get the highest possible value here.
 Beta: It is the best choice so far for MIN, and it has to be the lowest possible value.
 
-//PS. Some excerpts are derived from Hackerearth.com//
