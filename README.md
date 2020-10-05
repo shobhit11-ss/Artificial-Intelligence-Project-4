@@ -22,7 +22,7 @@ Data Structure Used
 We used a tree that uses the min/max algorithm. Min/Max algorithm is a recursive algorithm. It always choses the optimal move for a player assuming that the other player is also playing optimally.
 If there are b legal moves, i.e., b nodes at each point and the maximum depth of the tree is m, the time complexity of the minimax algorithm is of the order b^m(O(b^m)).
 
-Algorithms Used
+Algorithms Which We Have Used
 ---------------
 We have used Alpha-Beta pruning to search the Min/Max heap. It is a search algorithm whose aim is to decrease the number of nodes that are to be evaluated by the min/max trees. If we apply alpha-beta pruning to a standard minimax algorithm, it returns the same move as the standard one, but it removes (prunes) all the nodes that are possibly not affecting the final decision.
 
